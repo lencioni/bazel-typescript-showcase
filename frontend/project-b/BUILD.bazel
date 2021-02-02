@@ -7,5 +7,6 @@ ts_project(
     extends = "//frontend/typescript:tsconfig.dts.json",
     tsconfig = ":tsconfig.json",
     visibility = ["//visibility:public"],
+    supports_workers = True,
     deps = ["@npm//@types/node"],
 )
